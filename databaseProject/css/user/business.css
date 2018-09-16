@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 사업안내 */
+
+.business_2 ul.bu li{display:block; padding:1px 0 1px 7px; background:url(../../images/user/common/bu_square03.gif) no-repeat 0 50%; color:#666666;}
+.business_4 .contBlock{margin-bottom:30px;}
+.business_4 .contBlock .tit{margin-bottom:12px;}
+.business_4 .contBlock .textBox{padding:11px; border:1px solid #cfcfcf; color:#565656;}
+.business_4 .contBlock .textBox ul.bu li{display:block; padding:1px 0 2px 10px; background:url(../../images/user/common/bu_square02.gif) no-repeat 0 8px;}
+.business_4 .contBlock .textBox ul.bu li ul li{display:block; padding:0; background-image:none;}
+.business_5 table.list_type1 td.ali_l{padding:8px 10px 8px 25px;}
+.business_5 .btnArea_r{padding:0 0 3px 0;}
+.business_6 table.list_type1 th{background-image:none; background-color:#f1f1f1; font-weight:normal;}
+.business_6 table.list_type1 td{line-height:1.5;}
+.business_7 table.list_type1 tbody th{font-weight:normal; background-image:none; background-color:#fafafa;}
+.business_7 table.list_type1 td{color:#666666;}
+.business_7 table.list_type1 th.fir_t, .business_7 table.list_type1 td.fir_t{background:url(../../images/user/board/tb_line3B.gif) repeat-x 0 0;
+padding:12px 0 8px;}
+.business_7 table.list_type1 th.fir_t{background-color:#fafafa;}
+.business_7 table.list_type1 td.fir_tB{background:url(../../images/user/board/tb_line3B.gif) repeat-x 0 0 #fff6f7;}
+.business_7 table.list_type1 td.cell_colr2{background-color:#fff6f7;}
+.business_7 table.list_type1 tbody th div{display:inline-block; padding:10px 0 0 55px; height:23px; text-align:left; width:40px;}
+.business_7 table.list_type1 tbody th div.natio_1{background:url(../../images/user/business/flag_jp.gif) no-repeat 0 0;}
+.business_7 table.list_type1 tbody th div.natio_2{background:url(../../images/user/business/flag_f.gif) no-repeat 0 0;}
+.business_7 table.list_type1 tbody th div.natio_3{background:url(../../images/user/business/flag_o.gif) no-repeat 0 0;}
+.business_7 table.list_type1 tbody th div.natio_4{background:url(../../images/user/business/flag_a.gif) no-repeat 0 0;}
+.business_2 ul.bu li, .business_7 ul.bu li{display:block; padding:1px 0 1px 7px; background:url(../../images/user/common/bu_square03.gif) no-repeat 0 8px; color:#666666;}
+.business_7 ul.bu li ul li{display:block; padding:0; background-image:none;}
+.business_7 table.list_type1 td.fir_tC{background:url(../../images/user/board/tb_line3B.gif) repeat-x 0 0; padding:12px 10px 8px;}
+
+.business_3 .flowList{width:100%;}
+.business_3 .flowList li{width:100%; display:block; padding:13px 0 12px; background:url(../../images/user/common/bg_dotline.gif) repeat-x 0 0; overflow:hidden;}
+.business_3 .flowList li.fir_t{padding:12px 0; background-image:none;}
+.business_3 .flowList li .alb{width:200px; padding-left:10px; float:left;}
+.business_3 .flowList li .conText{width:490px; float:left;}
+.business_3 .flowList li .conText .conTit{padding:2px 0 12px;}
+.business_3 .flowList li .conText .descBox .parTit{padding-bottom:3px;}
+.business_3 .flowList li .conText ul li{width:482px; display:block; padding:2px 0 1px 8px; overflow:visible; color:#777777; background-image:none;}
+.business_3 .flowList li .conText ul.bu li{background:url(../../images/user/common/bu_square03.gif) no-repeat 0 9px;}
+.business_3 .flowList li .conText p.bu{width:482px; display:block; padding:2px 0 1px 8px; background:url(../../images/user/common/bu_square03.gif) no-repeat 0 9px; color:#777777;}
+
+.business_3 .flowListB{width:100%;}
+.business_3 .flowListB .conblock{width:100%; padding:13px 0 12px; background:url(../../images/user/common/bg_dotline.gif) repeat-x 0 0; overflow:hidden;}
+.business_3 .flowListB .fir_t{padding:12px 0; background-image:none;}
+.business_3 .flowListB .conblock .alb{width:200px; padding-left:10px; float:left;}
+.business_3 .flowListB .conblock .conText{width:490px; float:left;}
+.business_3 .flowListB .conblock .conText .conTit{padding:2px 0 12px;}
+.business_3 .flowListB .conblock .conText .descBox .parTit{padding-bottom:3px;}
+.business_3 .flowListB .conblock .conText ul li{width:482px; display:block; padding:2px 0 1px 8px; overflow:visible; color:#777777; background-image:none;}
+.business_3 .flowListB .conblock .conText ul.bu li{background:url(../../images/user/common/bu_square03.gif) no-repeat 0 9px;}
+.business_3 .flowListB .conblock .conText p.bu{width:482px; display:block; padding:2px 0 1px 8px; background:url(../../images/user/common/bu_square03.gif) no-repeat 0 9px; color:#777777;}
+
+.business_3 .flowListB .conblock .innerCont{width:689px; border:1px solid #ffd8ab; background-color:#fff8f0; padding:6px 0; overflow:hidden;}
+.business_3 .flowListB .conblock .innerCont .conTit{padding:6px 0 0 210px; float:left;}
+.business_3 .flowListB .conblock .innerCont ul{width:100%; float:left; margin-top:-18px;}
+.business_3 .flowListB .conblock .innerCont ul li{display:block; padding:6px 0; width:100%; overflow:hidden;}
+.business_3 .flowListB .conblock .innerCont ul li .alb{width:210px; float:left;}
+.business_3 .flowListB .conblock .innerCont ul li .conText{width:469px; float:left;}
+.business_3 .flowListB .conblock .innerCont ul li .conText .parTit{padding:2px 0 3px;}
+.business_3 .flowListB .conblock .innerCont ul li.fir_t .conText .parTit{padding:40px 0 3px;}
+.business_3 .flowListB .conblock .innerCont ul li.fir_t .conText .parTit2{padding:30px 0 3px;}
+.business_3 .flowListB .conblock .innerCont ul li .conText p.bu{width:460px;}
+
+.business_8{line-height:1.5;}
+.business_8 .conBlock{color:#2a2a2a; margin-bottom:35px;}
+/* .business_8 .conBlock h4{padding-left:18px; margin-bottom:10px; background:url(../../images/user/common/bu_disc01.gif) no-repeat 0 50%;} */
+.business_8 .conBlock h4{margin-bottom:10px;}
+.business_8 .conBlock .para{padding-left:18px; margin-bottom:5px;}
+.business_8 .conBlock .para_bu{padding-left:18px; background:url(../../images/user/common/bu_square03.gif) no-repeat 9px 7px;}
+.business_8 .conBlock .textCont{background:url(../../images/user/common/conBox4_mid.jpg) repeat-y 0 0; width:691px;}
+.business_8 .conBlock .textCont .inner{background:url(../../images/user/common/conBox4_top.jpg) no-repeat 0 0; padding-top:15px;}
+.business_8 .conBlock .textCont .inner .list_bu{background:url(../../images/user/common/conBox4_bott.jpg) no-repeat 0 100%; padding-bottom:15px;}
+.business_8 .conBlock .textCont .inner .list_bu li{display:block; padding:2px 18px 2px 28px; background:url(../../images/user/common/bu_square03.gif) no-repeat 18px 9px;}

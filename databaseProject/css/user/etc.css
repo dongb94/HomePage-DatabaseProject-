@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* etc */
+
+.etc_email .container .conArea,
+.etc_copyright .container .conArea,
+.etc_viewerDown .container .conArea,
+.etc_privacy .container .conArea{line-height:1.55;}
+
+.container h1 img{margin-left:5px;}
+
+.etc_email{width:531px; padding:0 5px 5px; background-color:#7e7e7e;}
+.etc_email .container .conArea{padding:20px 10px; background-color:#ffffff;}
+.etc_email .container .conArea p{text-align:center;}
+.etc_email .container .conArea .clo{padding-top:35px; text-align:center;}
+
+.etc_copyright{width:690px; padding:0 5px 5px; background-color:#7e7e7e;}
+.etc_copyright .container .conArea{padding:20px 10px; background-color:#ffffff;}
+.etc_copyright .container .conArea .contBox .conBlock{margin-bottom:20px;}
+.etc_copyright .container .conArea .contBox .conBlock p,
+.etc_copyright .container .conArea .contBox .conBlock div,
+.etc_copyright .container .conArea .contBox .conBlock ul{padding-bottom:15px;}
+.etc_copyright .container .conArea .contBox .conBlock div p,
+.etc_copyright .container .conArea .contBox .conBlock div div,
+.etc_copyright .container .conArea .contBox .conBlock div ul{padding-bottom:0;}
+.etc_copyright .container .conArea .contBox .conBlock .parTit strong{color:#ff5420; font-weight:normal;}
+.etc_copyright .container .conArea .contBox .conBlock ul.typeB{padding-bottom:0;}
+.etc_copyright .container .conArea .contBox .conBlock ul.typeB li{display:block; padding-bottom:15px; width:100%; overflow:hidden;}
+.etc_copyright .container .conArea .contBox .conBlock ul.typeB li span{display:block; width:19px; float:left;}
+.etc_copyright .container .conArea .contBox .conBlock ul.typeB li p{width:645px; float:left;}
+.etc_copyright .container .conArea .clo{text-align:center;}
+
+.etc_viewerDown{width:531px; padding:0 5px 5px; background-color:#7e7e7e;}
+.etc_viewerDown .container .conArea{padding:20px 10px; background-color:#ffffff; height:600px; overflow:auto;}
+.etc_viewerDown .container .conArea .clo{padding:35px 0 20px; text-align:center;}
+.etc_viewerDown .container .conArea .conBlock table.dataTb{border-top:2px solid #ed4f13;}
+.etc_viewerDown .container .conArea .conBlock table.dataTb th{padding:8px 0; text-align:center; border-bottom:1px solid #bbbbbb; border-left:1px solid #bbbbbb; 
+background:url(../../images/user/board/tb_line1.gif) repeat-x 0 100%;}
+.etc_viewerDown .container .conArea .conBlock table.dataTb td{padding:8px 0; text-align:center; border-bottom:1px solid #bbbbbb; border-left:1px solid #bbbbbb;
+line-height:1.6;}
+.etc_viewerDown .container .conArea .conBlock{width:491px; margin:0 auto;}
+.etc_viewerDown .container .conArea .conBlock table.dataTb td.ali_l{padding:8px 10px 8px 15px; text-align:left;}
+.etc_viewerDown .container .conArea .conBlock table.dataTb th.fir_l,
+.etc_viewerDown .container .conArea .conBlock table.dataTb td.fir_l{border-left:0;}
+
+.etc_privacy{width:690px; padding:0 5px 5px; background-color:#7e7e7e;}
+.etc_privacy .container .conArea{padding:20px 10px; background-color:#ffffff;}
+.etc_privacy .container .conArea .clo{text-align:center;}
+.etc_privacy .container .conArea .contBox h2{font-size:12px; padding:10px 0 12px;}
+.etc_privacy .container .conArea .contBox .conBlock{padding-bottom:20px;}
+.etc_privacy .container .conArea .contBox .conBlock p,
+.etc_privacy .container .conArea .contBox .conBlock div,
+.etc_privacy .container .conArea .contBox .conBlock table,
+.etc_privacy .container .conArea .contBox .conBlock ul{margin-bottom:15px;}
+
+.etc_privacy .container .conArea .contBox .conBlock ul li p,
+.etc_privacy .container .conArea .contBox .conBlock div div,
+.etc_privacy .container .conArea .contBox .conBlock div table,
+.etc_privacy .container .conArea .contBox .conBlock div ul{margin-bottom:0;}
+
+.etc_privacy .container .conArea .contBox .conBlock div p.mar_bott5{margin-bottom:5px;}
+
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB p,
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB div,
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB table,
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB ul{margin-bottom:15px;}
+
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB p,
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB ul{padding-left:15px;}
+
+.etc_privacy .container .conArea .contBox .conBlock ul.list_typeB li{display:block; width:100%; overflow:hidden; position:relative;}
+.etc_privacy .container .conArea .contBox .conBlock ul.list_typeB li span{display:block; width:13px; position:absolute; left:0; top:0;}
+.etc_privacy .container .conArea .contBox .conBlock ul.list_typeB li p{padding-left:13px; float:left;}
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB ul li p{margin-bottom:0;}
+.etc_privacy .container .conArea .contBox .conBlock p.parTit{padding-bottom:8px;}
+.etc_privacy .container .conArea .contBox .conBlock .parTit strong{color:#ff5420; font-weight:normal;}
+.etc_privacy .container .conArea .contBox .conBlock ul.bu li{background:url(../../images/user/common/bu_square03.gif) no-repeat 0 9px;}
+.etc_privacy .container .conArea .contBox .conBlock p.bu{padding:2px 0 1px 8px; background:url(../../images/user/common/bu_square03.gif) no-repeat 0 9px;}
+.etc_privacy .container .conArea .contBox .conBlock ul.list_typeC{font-size:11px; padding-left:15px;}
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB ul.list_typeB,
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB ul.list_typeC{padding-left:30px;}
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB{font-size:11px;}
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB p.bu{font-size:12px; padding:2px 0 1px 8px;}
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeC ul.list_typeB{margin:15px 0 0 15px;}
+
+.etc_privacy .container .conArea .conBlock table.dataTb{border-top:2px solid #ed4f13;}
+.etc_privacy .container .conArea .conBlock table.dataTb th{padding:8px 0; text-align:center; border-bottom:1px solid #bbbbbb; border-left:1px solid #bbbbbb; 
+background:url(../../images/user/board/tb_line1.gif) repeat-x 0 100%;}
+.etc_privacy .container .conArea .conBlock table.dataTb td{padding:8px 0; text-align:center; border-bottom:1px solid #bbbbbb; border-left:1px solid #bbbbbb;
+line-height:1.6;}
+.etc_privacy .container .conArea .conBlock table.dataTb td.ali_l{padding:8px 10px 8px 20px; text-align:left;}
+.etc_privacy .container .conArea .conBlock table.dataTb th.fir_l,
+.etc_privacy .container .conArea .conBlock table.dataTb td.fir_l{border-left:0;}
+.etc_privacy .container .conArea .conBlock table.vo_m1 th,
+.etc_privacy .container .conArea .conBlock table.vo_m1 td{font-size:11px;}
+.etc_privacy .container .conArea .conBlock table.bg_subj th{background-image:none; background-color:#f1f1f1; font-weight:normal;}
+
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeB p.mar_bott5{margin-bottom:5px;}
+.etc_privacy .container .conArea .contBox .conBlock div.boxTypeC{clear:both;}
+
+/* 사이트 맵 */
+.siteMap .box_row{width:100%; margin-bottom:50px; overflow:hidden; background:url(../../images/user/common/bg_groupBox_bottB.gif) no-repeat 0 100%;}
+.siteMap .box_row div{width:233px; margin-right:12px; float:left;}
+.siteMap .box_row div.boxType2{width:210px; margin-right:0;}
+.siteMap .box_row div .menuTit{padding-bottom:2px;}
+.siteMap .box_row div ul{width:198px; padding-right:35px;}
+.siteMap .box_row div.boxType2 ul{width:198px; padding-right:12px;}
+.siteMap .box_row div ul li{display:block; padding:8px 0 8px 9px; background:url(../../images/user/common/bg_dotline2.gif) repeat-x 0 100%;}
+.siteMap .box_row div ul li a{padding-left:10px; display:block; background:url(../../images/user/common/bu_square03.gif) no-repeat 0 7px;}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* reset */
+
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, fieldset, legend, caption, label, input, textarea, button, select, iframe, object{margin:0; padding:0;}
+img, a, span, abbr, address, pre, code, del, em, strong, sub, sup{margin:0; padding:0;}
+
+body, textarea{word-wrap:break-word;}
+body, input, textarea, select, button, table, th, td{line-height:1.4; font-size:12px; font-family:"돋움", Dotum, AppleGothic, Helvetica, sans-serif; color:#444444;}
+
+img{border:0 none;}
+ul, ol, li{list-style:none;}
+a{text-decoration:none; color:#444444;}
+/* a:hover, a:active, a:focus{text-decoration:underline;} */
+a:focus, input:focus, button:focus, textarea:focus{outline:1px dotted #dddddd;}
+
+table.def{border-spacing:0; border-collapse:collapse; word-wrap:break-word;}
+table.def,
+table.def thead,
+table.def tbody,
+table.def tfoot,
+table.def tr,
+table.def th,
+table.def td{border:0 none; margin:0; padding:0;}
+table.def caption{visibility:hidden; overflow:hidden; height:0; width:0; margin:0; padding:0; line-height:0;}
+
+form.def fieldset{border:0 none;}
+form.def legend{visibility:hidden; overflow:hidden; height:0; width:0; margin:0; padding:0; line-height:0;}

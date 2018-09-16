@@ -1,0 +1,14 @@
+@charset "euc-kr";
+/* import */
+
+@import url(reset.css); /* 기본설정 */
+@import url(common.css); /* 공통스타일 */
+@import url(layout.css); /* 레이아웃 공통 */
+@import url(board.css); /* 게시판 공통 */
+@import url(etc.css); /* 사이트맵, 기타 */
+@import url(popup.css); /* 팝업 */
+@import url(main.css); /* 메인 */
+@import url(business.css); /* 사업안내 */
+@import url(participate.css); /* 단계별 참여마당 */
+@import url(customer.css); /* 고객지원실 */
+@import url(information.css); /* 축산정보 */

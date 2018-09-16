@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>소고기 유통 시스템</title>
+    <link rel="stylesheet" href="css/main/style.css">
+    <script src="../jquery-3.2.1.min.js"></script>
+    <style>
+        div{
+            display: block;
+            position :relative;
+            text-align: center;
+            align-self: auto;
+        }
+        div img#title_img{
+            width: 50px;
+        }
+        div h1{
+            font-size: 50px
+        }
+        div h1, div img#title_img{
+            display: inline;
+            position: relative;
+            margin: 10px 0px 0px 10px;
+        }
+        /* section{
+            display : inline;
+            position: absolute;
+            margin: 30px 0 0 0;
+        } */
+        canvas{
+            display: inline;
+            position: relative;
+            margin: 30px 20px 0px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="images/main/cow2.png" alt="사용자 선택화면" id="title_img">
+        <h1>소고기 유통 관리 시스템</h1>
+        <img src="images/main/cow3.png" alt="사용자 선택화면" id="title_img">
+    </div>
+    <nav>
+        <img src="images/main_background.png" alt="메인 화면" id="img">
+    </nav>
+    <div>
+        <a href="consumerPage.html"><canvas width="200px" height="350px" id="canvas1"></canvas></a>
+        <a href="php/clickHome.php"><canvas width="200px" height="350px" id="canvas2"></canvas></a>
+        <a href="php/clickHome.php"><canvas width="200px" height="350px" id="canvas3"></canvas></a>
+        <a href="php/clickHome.php"><canvas width="200px" height="350px" id="canvas4"></canvas></a>
+    </div>
+    <script>
+        $().ready(function(){
+            $('#img').fadeOut(0).fadeIn(2000);
+            $("#canvas1").fadeOut(0);
+            $("#canvas2").fadeOut(0);
+            $("#canvas3").fadeOut(0);
+            $("#canvas4").fadeOut(0);
+            setTimeout(function(){$("#canvas1").fadeIn(1000)},500);
+            setTimeout(function(){$("#canvas2").fadeIn(1000)},500);
+            setTimeout(function(){$("#canvas3").fadeIn(1000)},500);
+            setTimeout(function(){$("#canvas4").fadeIn(1000)},500);
+        });
+
+        var image1=new Image();
+        var image2=new Image();
+        var image3=new Image();
+        var image4=new Image();
+        image1.src = "images/index/canvas1.png";
+        image2.src = "images/index/canvas2.png";
+        image3.src = "images/index/canvas3.png";
+        image4.src = "images/index/canvas4.png";
+
+        var canvas1 = document.getElementById("canvas1");
+        var canvas2 = document.getElementById("canvas2");
+        var canvas3 = document.getElementById("canvas3");
+        var canvas4 = document.getElementById("canvas4");
+        var context1 = canvas1.getContext('2d');
+        var context2 = canvas2.getContext('2d');
+        var context3 = canvas3.getContext('2d');
+        var context4 = canvas4.getContext('2d');
+        
+        image1.onload = function(){
+            context1.drawImage(image1,45,50);
+            context1.lineWidth = 10;
+            context1.arc(100,100,90,0,Math.PI*2,false);
+            context1.stroke();
+            context1.font = 'bold 38pt Arial';
+            context1.fillText('소비자',23,260);
+        }
+        image2.onload = function(){
+            context2.drawImage(image2,42,140);
+            context2.lineWidth = 10;
+            context2.arc(100,180,90,0,Math.PI*2,false);
+            context2.stroke();
+            context2.font = 'bold 38pt Arial';
+            context2.fillText('도축업자',0,340);
+        }
+        image3.onload = function(){
+            context3.drawImage(image3,40,50);
+            context3.lineWidth = 10;
+            context3.arc(100,100,90,0,Math.PI*2,false);
+            context3.stroke();
+            context3.font = 'bold 38pt Arial';
+            context3.fillText('운송업자',0,260);
+        }
+        image4.onload = function(){
+            context4.drawImage(image4,45,130);
+            context4.lineWidth = 10;
+            context4.arc(100,180,90,0,Math.PI*2,false);
+            context4.stroke();
+            context4.font = 'bold 38pt Arial';
+            context4.fillText('판매자',23,340);
+        }
+        
+    </script>
+</body>
+</html>
